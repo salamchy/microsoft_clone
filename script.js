@@ -1,0 +1,18 @@
+const rev = ScrollReveal({
+  delay: 200,
+  distance: '200px' 
+});
+rev.reveal('.logo',
+  {  
+    origin: 'left',
+  });
+
+rev.reveal('.links', 
+{
+  origin: 'top',
+});
+
+rev.reveal('.cards', 
+  {
+    distance: '50px' 
+    });
