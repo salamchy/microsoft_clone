@@ -12,7 +12,12 @@ rev.reveal('.links',
   origin: 'top',
 });
 
-rev.reveal('.cards', 
+rev.reveal('.items', 
   {
-    distance: '50px' 
+    origin: 'left',
+    interval: 300 ,
+    rotate: {
+      x: 20,
+      z: 20
+  } 
     });
